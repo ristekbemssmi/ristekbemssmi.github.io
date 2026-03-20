@@ -1,7 +1,7 @@
 // Navbar fixed
 window.onscroll = function() {
     const header = document.querySelector("header");
-    const container = document.querySelector("header .container");
+    const container = document.querySelector("header>.w-full");
     const fixedNav = header.offsetTop;
 
     if(window.pageYOffset > fixedNav) {
